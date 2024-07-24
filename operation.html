@@ -1,0 +1,26 @@
+ <script>  
+    function call(ch)
+  {  var i=parseInt(txt1.value)
+    var j=parseInt(txt2.value)
+    if(ch==1)
+    {var k=i+j
+    result .innerHTML="sum is "+k
+  }
+  else if(ch==2)
+  {
+    var k=i-j
+    result .innerHTML="substraction is"+k
+  }
+  }
+
+</script>
+
+<html>
+    <input type="text" id="txt1"><br><br>
+    <input type="text" id="txt2"><br><br>
+    <input type="button" value="addition" onclick="call()">
+    <input type="button" value="substraction" onclick="call()">
+    <div id="result">see here</div>
+</html>
+
+    

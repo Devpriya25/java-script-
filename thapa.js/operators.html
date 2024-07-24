@@ -1,0 +1,515 @@
+<script>
+//   var num = 12;
+//   if(num === 2){
+//   console.log('num is negative')
+//   }
+// var num = 0;
+// if(num === 0){
+//     console.log('num is zero')
+// }
+// else if (num > 0) {
+// console.log('num is positive')
+// }
+// else{
+//     console.log('num is negative')
+// }
+// switch statement work and what will be the output
+//  var day = 'monday';
+//  switch (day) {
+//  case'monday':  
+//  console.log("today is monday");
+
+//  case "friday":
+//     console.log("omg lets have a party today");
+//  }
+// var areaOfshape = "circle"
+// var a = 5;
+// var b = 10;
+// var result;
+// switch(areaOfshape) {
+//     case "square":
+//     result = a*a;
+//     console.log(result);
+//     break;
+    
+//     case "rectangle":
+//         result = a*b;
+//         console.log(result);
+//         break;
+          
+//         case "circle":
+//         var r = 2;
+//         result = 3.142 *(r*r);
+//         console.log(result);
+//         break;
+
+
+//          default:
+//             console.log("no shape match");
+//  }
+
+  //  var i = 2 ;  
+  //   for(var i=1; i*10; i++) { 
+  //   console.log(i);
+  // }
+// while loop 
+
+//   var i=1;
+//  while(i<=10) {
+//      console.log(i);
+//       i++;
+//   }
+
+// var num = 1;
+// while (num <= 10);{
+// console.log(1);
+// num++;
+// }
+
+//   var num = 1;
+//   do {
+//     console.log(num);
+//     num++;
+//   }
+//     while(num<=10); {
+//    }
+//    for(var num = 1; num <= 10; num++){
+//      console.log(num);
+//  }
+
+// print  a table of 5 
+// var num = 1;
+// while(num <=10) {
+//   console.log("5*" + num + "=" + 5 * num);
+//   num++;
+// }
+
+
+// validating user input with a do while loop(user need to a write a valid  number)
+// let userInput;
+// let positiveNumber;
+// do {
+//   userinput = promt("enter any positive number");
+//   positiveNumber = parseFloat(userInput);
+// } 
+// while(isNAN('xys')|| positiveNumber < 0);{
+//   console.log ("you enter a valid positive number:", positiveNumber);
+// }
+ 
+// // print 1 to 10 by for loop
+//  var sum = 0 ;
+//  for(var num = 1; num <=10; num++);{
+//  var sum = sum + num;
+ 
+//  }
+//  console.log(sum);
+
+
+// //  however not all number are prime
+// var num = 12;
+// var isprime = true;
+
+// for(var i = 2; i < num; i++) {
+//   if(num % i === 0){
+//     isprime = false;
+//     break;
+//   }
+// }
+// if (isprime) {
+//   console.log ("num is prime");
+// }
+//   else{
+//  console.log("num is not prime ");
+//   }
+
+// // table of 8,9,10
+
+// var num = 8;
+// for(var num = 1; num <=10; num++);{
+//   console.log("8*"+ num + "="+ 8* num);
+// }
+// // if year is divisible by 400
+
+// var year = 400;
+// if((year % 4 === 0 && year % 100 != 0)|| year % 400 === 0);{
+//   console.log(year,"it 's a leap yrear");
+// } 
+// else {
+// console.log(year,"its not a leap year");
+// }
+// draw a pattern with asterrisks
+// var pattern = "";
+// for (var i = 1; i<= 5 ; i++ ); {
+//   for(var j = 1 ; j <= i; j++);{
+//     pattern = pattern + "*";
+  
+//   console.log(pattern);
+// }
+// }
+// var i = 2;
+// for(var i=1; i*10; i++ ); {
+// console.log("2*" + i + "="+  2* i);
+// }
+// 3 student at a same time want to
+//  find the sum of two numbers 
+//  var a = 5;
+//  b = 10;
+//   var sum1 = a+b;
+//   console.log(sum1);
+
+//    var a = 15;
+//   b = 15;
+//    var sum2 = a+b;
+//   console.log(sum2);
+ 
+//   var a = 55;
+//   b = 15;
+//    var sum3 = a+b;
+//   console.log(sum2);
+ 
+
+// // reuseable code
+//  function sum (a,b) {
+//   return a + b; 
+//  }
+ 
+//  function declaration pass  with console.log(sum(a,b));
+//  console.log(sum(5,15));
+//  console.log(sum(15,15));
+//  console.log(sum(55,15));
+
+//  funtion innvocation 
+
+// function sum ()
+// {
+// var a = 10;
+// b = 15;
+// var  sum = (a+b);
+// }
+// console.log(sum(a+b));
+
+// individual to the technical js course the function should (name) parameters and
+// and output the message hello[name, welcome to the thapa technical js course]
+// call the function twice , once with arguement sita once with the arguement ram" 
+
+// function greet  (name) 
+// {
+//    console.log("hello " + name , + "welcome to the thapa technical js course");
+// }
+// greet("ram")
+// greet("sita");
+
+// argument  &  parameter
+
+// function sum () {
+//  var a = 15;
+//  b = 10; 
+//  console.log(a+b);
+// }
+// sum();
+// sum();  // argument funtion
+
+
+
+//  expression funtion & also called anonymous funtion
+//without a name it can be created using either a funtion
+//expression without specific name.
+
+// var result = function sum (a,b) {
+//   console.log(a+b);
+// }
+// result (10,15);
+
+// //example  sum returning a sum of two number 
+//  function sum (a,b) {
+//   return a + b;
+//  }
+//  console.log((10,5));
+// console.log((15,50));
+// console.log ((25,750)); 
+
+//example  sum returning a sum of two number
+// function sum (a,b) {
+//  return(a+b);
+//  console.log("hello i am funtion");
+// }
+// var result = sum(5,5);
+
+// var result = (function(a,b) {
+// console.log(a + b) ; 
+// result a + b ;
+// } (5,10);
+// console.log("the sum of two number is "+ result);
+ 
+//INFE inmmedetaly innvoked function
+
+//ecma script also called a template literal also know as convinent
+//make a flexible way to create a string 
+// let firstName = "vinod" ; 
+// let lastName  = "thapa";
+
+// let fullName = firstname + lastname ;
+// let fullName = '$ { firstname +last name }
+// console.log(fullname);
+
+//string interpolation is allwoing you to embed exprssion directly
+//with in the string interpoloted exprssion are enclosed with $
+  
+// console.log ("5*" + num + "+ 5 * num");
+// let num = 5;
+// console.log (5);
+
+// write a function  to  find   a two numbers default 
+
+// function sum (a  = 20, b = 10) {
+// return a + b;
+// }
+// console.log (sum());
+
+
+// concise way to right a anonyymous function 
+// const sum = function (a,b) {
+//   let result = ` the sum of ${a} and ${b} is ${a+b}`;
+//   console.log(result);
+// }
+
+// fat arrow function => {()}
+
+//  const sum = (a,b)   => `the sum of ${a} and ${b} is ${a + b}`;{
+// console.log(sum(5,5));
+//  }
+ //if there is only parameter the 
+                                                                                                                                                       
+//  const sum = (a,b); {
+//   let result = `the sum of ${a} and ${b} is ${a + b}`;
+//   console.log(result);
+//  }
+
+//calculator
+
+// function calculators(num1, num2,operator) {
+
+//   let result;
+//    switch (operator){
+//     case "+":
+//       return num1 + num2
+//       results = num1 + num2;
+//       break;
+
+//       case "-":
+//         result = num1 - num2;
+//         return  result;
+
+//         break;
+        
+//         case "/":
+   
+//         if (num2 === 0 ) {
+//           return "0 is not allowed ";
+//         } else {
+//           result =  num1 / 
+//           num2  ;
+//           return result;
+//         }
+
+
+//         default:
+//         return  "no operators found" ;
+//       }
+   
+//   }
+
+//    console.log(calculators (5,2, "+"));
+//    console.log(calculators(8,4,"-"));
+//    console.log(calculators (10,0, "/"));
+
+// function calculators  (a,b, operator){
+//    var  result ;
+//    if(operator == "+" ){
+//    return result=a+b
+// }
+//  else if( operator == "-"){
+//   return result=a-b
+//  }
+//  else if( operator == "*"){
+//   return result=a*b
+//  }
+//  else if (operator == "/"){
+//   return result=a*b;
+//  }
+//  else if(operator == "%"){
+//   return result=a%b;
+//  }
+//  else{
+//   return result= " invalid operator "
+//  }
+//  console.log ( calculator(8,5,"+"));
+// }
+
+// else if  by switch statement
+
+// function calculator (a,b,operator ){
+//  var result;
+//  return result
+// }
+
+// isreserve function
+//  const isReverse = (str) => {
+//    for (let char =9; char <= str.length; char++);{
+//     console.log (str[5])
+//    }
+//   } 
+// isReverse ("vinod thapa"); {
+//  const isReverse  = (str) => 
+//    for ( let char = 9; char <= str.length; char--){
+//      console.log(str[6]);
+//    }
+//   }
+
+//   }
+// }
+// isReverse("vinod thapa");
+
+// function n(){
+//   console.log('by7y7y')
+
+// }
+// n()
+
+// function sum (){
+//   console.log ("devpriya");
+// }
+// sum()
+// palindrome string 
+
+// const ispalindrome = (str) => {
+//   let reverse = "";
+//   for(let char = str.length - 1; char >= 0; char--) {
+//     reverse = reverse + str[char];
+//   }
+  
+//   // Compare reversed string with original string
+//   return reverse === str;
+// }
+
+// console.log(ispalindrome("level"));  // Output: true
+
+
+//palindrome function  is 
+
+// check the reverse value of given program 
+
+
+
+// const ispalindrome = (str) => {
+//   let reverse = "";
+//   for( char = str.length - 1; char >= 0; char-- ) {
+//     reverse = reverse + str[char]; 
+//    }
+//   }
+  
+//   if ( str === reverse){
+//     return true ;
+//    } else {
+//     return false;
+//     }
+//  console.log (ispalindrome('level'));
+  
+
+// using the array constructor
+// let fruits = new Array["apple","orange", "banana","strawberry","cherry"];
+// console.log (fruits);
+
+//using array literals
+
+// let fruit =["apple","banana","kiwi"];
+// console.log(fruit);
+
+
+// accessing element array using 0 base indicate
+//data show on top of row indexing 
+//only want to index number to acessing the data
+
+// let fruit = ["apple","banana","kiwi"];
+//  console.log(fruit[0]);
+
+// modify element in array  assigning a new  element 
+
+//  let  fruits =["apple","orenge","kiwi"];
+// //  fruits[2]= "mango"
+// //  console.log(fruits);
+
+
+// //  iterate over value such as array,string an other iterable object.
+//  for (let item of fruits) {
+//   console.log (item);
+//  }
+
+//  for (let item = 0; item < fruits.length; item++);{
+//   console.log( fruits[item]);
+//  }
+//  for in loop
+
+//  
+ 
+//  let a =["apple ", "banana", "cherry"];
+//  console.log(a[0]);
+//  console.log (fruit["kiwi"]);
+
+
+// syntax foreach  method call th e provide funtion fo
+// array.foreach((currentvalue ,index , array))=>
+// fruit.forEach((curelemnt ,index,arr) => {
+//   console.log (`${currelem, index , arr}`);
+//   console.log(arr);
+
+// });
+
+// for map function
+// const myforeacharr = fruits.forEach  {
+//   (currelem,index,arr) => {
+//     return `${curelem}${index}`;
+//     console.lof(myforeacharr);
+//   }
+// });
+
+// write a program to multiply  each eleemrnt with 2
+
+// const number = [1,2,3,4,5];{
+
+
+  //  var number =[1,2,3,4,5];{
+  //   number.foreach (currentelement); {
+  //     console.log(currentelementt * 2) 
+  //   }
+  //  }
+  // splice()
+
+
+// let fruits = ["apple","orenge","banana"];{
+
+//   fruits.splice(1,0,"grapes");
+//   console.log(fruits);
+// }
+
+// const numbers = [1,2,3,4,5,6,7,8];
+// // const result = numbers.indexof(6);
+// // console.log(result);
+
+// const result = numbers.lastindexof(6,7);
+
+// indextodelete
+// indextoupdate
+// lastindexof
+// indexof 
+const months = ["jan","march","apirl","june"]
+
+ const indextodelete = months.indexof("march");
+ months.splice(indextoupdate,1,"march");
+
+
+ 
+
+
+
+</script> 
