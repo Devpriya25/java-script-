@@ -563,10 +563,22 @@
 //   const numbers = numbers.filter[1,2,3,4,5,6,7,8,9];
 //  console.log ([...set(numbers)]);
 
-const fruits  = ["banana", "apple", "kiwi","orenge"];
+// const fruits  = ["banana", "apple", "kiwi","orenge"];
 
-fruits.sort();
-console.log(fruits);
+// fruits.sort();
+// console.log(fruits);
+
+// ascending order
+
+//  compare callback funtion
+ numbers.sort((a,b) => {
+    if (a > b ) return 1;
+    if (b > a ) return -1;
+
+ }); 
+ console.log (numbers);
+  
+
 
 
 
