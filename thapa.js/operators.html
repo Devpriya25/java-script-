@@ -600,8 +600,16 @@ const squarenumbers = number.symbol( )
 
 // accesing nested properties without optional changing operator  
 
-const city = person.address ?.city : "city is not persent";
+const city = person.address ?.city ||"city is not persent"; 
+// || or operator use to define if another value is true and another value is falsr it will go with true side
 console.log (city)
+// acessing depply nested properties with optional chnaging  lattitude
+
+// replacing all occurence of word
+// const orignalstring = "hello, world ! hello again "
+
+ const newstring = orognalstring .replaceAll (/\+/g, " ");
+ console.log (normalizedText);
 
 
   
