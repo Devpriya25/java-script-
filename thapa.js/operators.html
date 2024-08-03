@@ -686,7 +686,12 @@ console.log (normalizedText);
   const vowels = "aeiou "
 
   let count  = 0;
-    (let char of vowels)
+    (let char of vowels) {
+
+      if (str.include(char)) {
+        count ++;
+      }
+    }
   }
 
 
