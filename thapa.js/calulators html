@@ -20,7 +20,7 @@
         else{
             return result="invalid operator"
         }
-    }     code
+    }      
 
    
     console.log(calculator(8,4,'-'))
