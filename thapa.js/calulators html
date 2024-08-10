@@ -22,6 +22,6 @@
         }
     }  
 
-
+   
     console.log(calculator(8,4,'-'))
 </script>
